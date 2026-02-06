@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Dependencies
+**/node_modules/
+
+# PCF generated files
+**/generated/
+
+# Build output
+**/out/
+**/obj/
+**/bin/
+
+# Solution directory
+**/sln/
+
+# NuGet
+**/packages/
+
+# TypeScript
+**/*.js.map
+**/*.tsbuildinfo
+
+# IDE / Editor
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Package lock (optional - remove if you want to track it)
+# **/package-lock.json
