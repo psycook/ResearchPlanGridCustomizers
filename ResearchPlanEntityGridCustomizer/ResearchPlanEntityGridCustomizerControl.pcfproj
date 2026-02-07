@@ -8,7 +8,7 @@
   <Import Project="$(PowerAppsTargetsPath)\Microsoft.PowerApps.VisualStudio.Pcf.props" Condition="Exists('$(PowerAppsTargetsPath)\Microsoft.PowerApps.VisualStudio.Pcf.props')" />
 
   <PropertyGroup>
-    <Name>ResearchPlanRunGridCustomizerControl</Name>
+    <Name>ResearchPlanEntityGridCustomizerControl</Name>
     <ProjectGuid>82cab210-4e37-471b-8150-43d377102d13</ProjectGuid>
     <OutputPath>$(MSBuildThisFileDirectory)out\controls</OutputPath>
   </PropertyGroup>

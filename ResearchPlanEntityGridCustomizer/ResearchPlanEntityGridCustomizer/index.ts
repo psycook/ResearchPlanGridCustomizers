@@ -4,7 +4,7 @@ import { cellEditorOverrides } from "./customizers/CellEditorOverrides";
 import { PAOneGridCustomizer } from "./types";
 import * as React from "react";
 
-export class ResearchPlanRunGridCustomizer implements ComponentFramework.ReactControl<IInputs, IOutputs> {
+export class ResearchPlanEntityGridCustomizer implements ComponentFramework.ReactControl<IInputs, IOutputs> {
 	/**
 	 * Empty constructor.
 	 */
